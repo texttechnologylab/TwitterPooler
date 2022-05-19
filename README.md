@@ -1,4 +1,4 @@
-# twitter-malstrom Project
+# TwitterPooler
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
