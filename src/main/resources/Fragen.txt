@@ -1,0 +1,41 @@
+25.11.21 (leider habe ich nicht geschafft, die Fragen zu stellen (keine Zeit, da die neue Sprechstunde Teilnehmer kamm))
+1. Da ich bis Weihnachten schon mindestens die Gliederung haben möchte, würde ich sehr gerne schon jetzt damit anfangen. Wäre das für Sie im Ordnung, wenn ich ab jetzt
+so 70% meine Teit auf Development und 30% auf Schreiben verteile?
+Wenn ja, dann fange ich gerne mit Gliederung an und habe ich sofort paar Fragen:
+    - Als erstes möchte ich Fragen was genau mein Thema ist ? Was ich im meine Arbeit schreiben soll, soll ich mehr über meine Program schreiben (technischen Sachen) oder
+    mehr über pooling (warum man das macht, welche poolings arten gibt, wie man die pools erstellt)
+    - Was wird untersucht ? Werde ich z.b. Daten herunterladen, alle pooling arten anwenden und dann LDA laufen lassen?
+    - Könnten Sie mir Literatur dafür geben ?
+
+
+
+2. Ich habe noch Fragen bezüglich pooling:
+    - Soll ich auch zusätzliche Parameter einbauen (z.b. bei Author weise pooling könnte man Einschränkung einbauen, dass nur Authoren mit mehr als 20 Tweets werden züruck gegeben.)
+    - Wie soll ich das mit temporal pooling. Im diese Paper steht dass die Tweets sollen nach Jeder Stunde sortiert werden. Ich finde jeder Stunde ist bisschen zu viel. Deswegen
+      würde ich das auf Tagen setzten.
+     - Als nächtes möchte ich nach Hashtag-Pooling fragen. Wenn ich z.b. ein Query nach Hashtag ausführe und dann davon ein Hashtag-pooling machen. Als Ergebniss bekomme ich eine
+     Collection die wird genau so aussehen wie heruntergeladene Tweets. Soll ich dann das löschen oder soll so sein ?
+     - Soll ich mir selber Burst Detetection alg aussuchen oder haben Sie eine, die Sie sehr gerne nutzten möchten ?
+     - Was soll ich als Terms für Burst Detection nehmen? Können das Hashtags sein ? ODer z.b. context_annotations.entity.name Oder sind das Keywords
+
+
+2.12.21
+Am Anfang möchte ich das was ich im Email schon geschrieben hatte. Sie haben gesagt dass ich mit Gliederung nicht angefangen kann, da das nicht für Vorbereitungszeit gedacht ist und
+dafür müss ich angemeldet sein.
+Um Anzumeldet zu sein müssen wir genauer meine Thema angeben. Und ich muss sage, dass ich jetzt bisschen verwird bin, was genau ich schreiben werden. Könnten wir das bisschen mehr
+präzisieren, damit ich richtig meine Ziele aufschreibe und grobe Plan austellen kann? Also bis jetzt entwickle ich das Programm für herunterladen des Tweets und die Möglichkeit pools zu
+erstellen. Und was kommt danach? Werde ich dann im meine Arbeit  über meine Program schreiben (technischen Sachen) oder
+mehr über pooling (warum man das macht, welche poolings arten gibt, wie man die pools erstellt)
+Wann kann ich sagen, dass mein Programm schon fertig ist ?
+
+Ich habe das Klassendiagram erstellt, was ich Ihnen zeigen möchte.
+Ich habe auch alle 4 pools implementiert und das Resume implementiert (also die Forführung des Querys).
+
+
+Zum Bachelorarbeit-
+Stellt dir eine Untersuchungsfrage!
+
+Wie soll ich die Quelle eingeben, wenn die Quelle nur eine Website ist? (z.b. Twitter dokumentation)
+Wie ich zitiren soll, wenn ich z.b. schreibe:
+Co jest mam ksiazke online, gdzie nie ma podanych stron.
+Zapytaj czy moze lepiej das ewaluacje przed implementierung

@@ -1,0 +1,140 @@
+
+<style type="text/css">
+.multi_select_box{
+    min-width: 958px !Important;
+    margin: 20px auto;
+}
+
+/*.multi_select_box(*:root)
+{
+    min-width: 12% !Important;
+    margin: 20px auto;
+}*/
+.multi_select_box select{
+    width:100% !important;
+}
+
+/*.multi_select select{
+    width:100%;
+}*/
+
+.customHistory
+{
+    max-width: 37%;
+    margin-left: inherit;
+}
+
+.customHome
+{
+    max-width: 31%;
+    margin-left: inherit;
+}
+
+.customSearch
+{
+    margin-top: 10px;
+}
+.customInputLblSearch
+{
+    /*min-width:100px;*/
+    min-width:134px;
+    /*background: #B4E6FD4D;*/
+}
+
+.btnBigColore
+{
+    background: #21D5D31F !important;
+}
+
+.btnBigSelectColor
+{
+    background: #20d6d2 !important;
+    background: linear-gradient(6deg,#20d6d2 0%, #15a1dc 80%) !important;
+    background: -webkit-linear-gradient(6deg,#20d6d2 0%, #15a1dc 80%) !important;
+    background: -moz-linear-gradient(6deg,#20d6d2 0%, #15a1dc 80%) !important;
+}
+
+.customInputSearch
+{
+    min-width: 100%;
+}
+
+.customResume
+{
+    margin-top:10px;
+}
+
+.customPooling
+{
+    margin-top:10px;
+}
+
+.customCount
+{
+    margin-top:10px;
+}
+
+.btnPooling
+{
+    width:220px;
+}
+
+.lblPoolingLimit
+{
+    margin-left: 10px;
+    width:105px;
+}
+
+.lblColor
+{
+    background: #B4E6FD4D;
+}
+
+.inputPoolingLimit
+{
+    margin-left: 10px;
+    width:68px;
+}
+
+.inputPoolingSize
+{
+    margin-left: 10px;
+    width:95px;
+}
+.button:hover {
+  background-color:rgba(255,204,0,0.8);
+ }
+
+.infoContainer
+{
+    top: 40%;
+    left: 35%;
+    position: fixed;
+    max-width: 500px;
+}
+
+.btnInfo
+{
+    margin-top=10px;
+}
+
+.btnColor
+{
+    background: #15a1dc;
+    background: linear-gradient(8deg,#15a1dc 0%, #0c4580 80%);
+    background: -webkit-linear-gradient(8deg,#15a1dc 0%, #0c4580 80%);
+    background: -moz-linear-gradient(8deg,#15a1dc 0%, #0c4580 80%);
+}
+
+.customNavbar
+{
+    margin-bottom:30px;
+}
+
+@supports (-moz-appearance:none) {
+    .multi_select_box{
+        min-width: 909px !Important;
+        margin: 20px auto;
+    }
+}
+</style>

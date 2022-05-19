@@ -1,0 +1,71 @@
+1. Jesli bedzie trzeba zbudowac jeden dokument dla wszystkich tweetow to zrob tak :
+        //only for tests
+        Document allTwetsDoc = new Document();
+        //Save result in database
+        int numberOfTweets = ((JSONArray)result.get(0)).length();
+        for (int i=0; i<numberOfTweets;i++)
+        {
+            allTwetsDoc.put(""+i,DBHelper.createTweetDocument(result,i, uniqueID));
+        }
+        mongoCollection.insertOne(allTwetsDoc);
+
+
+
+
+        document.getElementById("btnHash").textContent = text
+
+
+TODO :
+- -----------> komentarze (Download)
+- -----------> btn na resume, wielokrotny wybor jest mozliwy
+-------------> zmien nazwe NumberOfCollections, na NumberOfTweets. Pamietaj o zmianie w pracy !!!!
+- -----------> [ERLEDIGT] dodatkowe pooling parametry (temporal{mozliwosc dzielenia na dni}, hashtag, author{Mentioned? Conversation id?}, brust (tutaj moge zmieniac wyniki))
+- -----------> [ERLEDIGT] sprawdz czy resume dobrze funkcjonuje (auch ohne max Result)
+- -----------> [ERLEDIGT] zaimplementuje inne ednpointy (bez countera) FEHLEN DDCCATEGORY
+- -----------> [ERLEDIGT] sprawdz roznego rodzaju querys
+-------------> [ERLEDIGT] popraw widocznosc Query w Tabeli (hashtag)
+-------------> [ERLEDIGT] zaimplementuj sprawdzanie resetu konta
+-------------> [ERLEDIGT] zaimplementuj sprawdzanie czy juz istnieje pool odnosnie tego query
+-------------> [ERLEDIGT] sprawdz czy Query schon vorhanden ist (was mit Zeitraum?) Zaimplementuj DateRange
+-------------> [ERLEDIGT] History Seite (Querys, Pools)
+-------------> [ERLEDIGT] btn auf pool/resume site sperren
+- -----------> [ERLEDIGT] Running pools na home page
+- -----------> [ERLEDIGT] stworz TweetPanache
+- -----------> [ERLEDIGT] Dodaj DateRange (nie zapomnij nie TweetPanache)
+- -----------> [ERLEDIGT] Textimager (Jeszcze trzeba zaiplementowac zmiane query statusu podczas nlp procesu !!!!!!)
+- -----------> [ERLEDIGT] funkcja toCas()
+- -----------> [ERLEDIGT] design
+- test
+
+Test Scenario
+1. Resume
+----> [ERLEDIGT] Ohne Max Result
+----> [ERLEDIGT] Mit Max Result
+----> [ERLEDIGT] Mit Startdatum
+----> [ERLEDIGT] Mit Enddatum
+----> [ERLEDIGT] Mit Start/End Datum
+----> Search[E]/UserTimeline[E]/UserMentioned[E]/UserLiked/TweetLiking
+
+2. Search query example
+----> [ERLEDIGT] "twitter data" has:mentions (has:media OR has:links)
+----> [ERLEDIGT] specifying grumpy OR cat OR #meme
+----> [ERLEDIGT] (grumpy cat) OR (#meme has:images)
+
+3.Download test
+- upload pool file one (check fileName)
+- upload pool file multi (check fileName)
+- get one
+- get multi
+
+Time measure :
+long startTime = System.currentTimeMillis();
+long endTime = System.currentTimeMillis();
+System.out.println("Deserilizer took " + (endTime - startTime) + " milliseconds");
+
+Wie wurden die pools files gspeichert :
+poolart-queryid-file
+
+Moze dopisac w rozdziale Grundlagen --> textimager --> NLP-Vorverarbeitung ?
+
+
+TWORZENIE PLAYLIST NA SPOTIFY ze wzgledu na popularnosc na twiterze

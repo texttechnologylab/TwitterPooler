@@ -1,0 +1,527 @@
+[
+  [
+    {
+      "referenced_tweets": [
+        {
+          "id": "1459578345708998659",
+          "type": "retweeted"
+        }
+      ],
+      "entities": {
+        "hashtags": [
+          {
+            "start": 97,
+            "end": 106,
+            "tag": "Białoruś"
+          },
+          {
+            "start": 107,
+            "end": 115,
+            "tag": "granica"
+          },
+          {
+            "start": 116,
+            "end": 123,
+            "tag": "Czechy"
+          }
+        ],
+        "mentions": [
+          {
+            "start": 3,
+            "end": 17,
+            "id": "863754684",
+            "username": "PawelChojecki"
+          }
+        ]
+      },
+      "possibly_sensitive": false,
+      "conversation_id": "1459606650915069962",
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "quote_count": 0,
+        "retweet_count": 9
+      },
+      "created_at": "2021-11-13T19:38:38.000Z",
+      "text": "RT @PawelChojecki: Brawo Czesi! Przyszła partia rządząca chce praktycznej solidarności z Polską! #Białoruś #granica #Czechy  https://t.co/a…",
+      "source": "Twitter Web App",
+      "id": "1459606650915069962",
+      "author_id": "1041261861855875076",
+      "lang": "pl",
+      "reply_settings": "everyone"
+    },
+    {
+      "entities": {
+        "urls": [
+          {
+            "display_url": "wyborcza.pl/magazyn/7,1240…",
+            "images": [
+              {
+                "width": 1200,
+                "url": "https://pbs.twimg.com/news_img/1459130339062857740/7TMsC8K4?format=jpg&name=orig",
+                "height": 630
+              },
+              {
+                "width": 150,
+                "url": "https://pbs.twimg.com/news_img/1459130339062857740/7TMsC8K4?format=jpg&name=150x150",
+                "height": 150
+              }
+            ],
+            "start": 254,
+            "expanded_url": "https://wyborcza.pl/magazyn/7,124059,27783183,sklepowe-opowiadaja-ze-zolnierze-pogranicznicy-ciagle-sie.html",
+            "unwound_url": "https://wyborcza.pl/magazyn/7,124059,27783183,sklepowe-opowiadaja-ze-zolnierze-pogranicznicy-ciagle-sie.html",
+            "description": "Mundurowi przy granicy mają dość. Wojsko przerzuca brudną robotę na Straż Graniczną, straż na policję",
+            "end": 277,
+            "title": "Sklepowe opowiadają, że żołnierze, pogranicznicy ciągle się dożywiają \"za własne\". I \"za własne\" dokarmiają uchodźców",
+            "url": "https://t.co/B5R6efe3TY",
+            "status": 200
+          }
+        ],
+        "hashtags": [
+          {
+            "start": 207,
+            "end": 215,
+            "tag": "granica"
+          },
+          {
+            "start": 216,
+            "end": 232,
+            "tag": "muremzamundurem"
+          },
+          {
+            "start": 233,
+            "end": 242,
+            "tag": "Białoruś"
+          },
+          {
+            "start": 243,
+            "end": 253,
+            "tag": "Białorusi"
+          }
+        ]
+      },
+      "possibly_sensitive": false,
+      "conversation_id": "1459606179122925573",
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "quote_count": 0,
+        "retweet_count": 0
+      },
+      "created_at": "2021-11-13T19:36:45.000Z",
+      "text": "!!! Pilnie !!! Wszyscy chcą pomagać ludziom z \"trudnym statusem prawnym\" na granicy a nasi żołnierze żywności nie dostają!!!. Gdzie jest organizacją niosąca pomoc naszym? Proszę o numer konta !!! Pilnie !!! #granica #muremzamundurem\n#Białoruś #Białorusi\nhttps://t.co/B5R6efe3TY",
+      "source": "Twitter for Android",
+      "id": "1459606179122925573",
+      "author_id": "4177565176",
+      "lang": "pl",
+      "reply_settings": "everyone"
+    },
+    {
+      "referenced_tweets": [
+        {
+          "id": "1459588775781277700",
+          "type": "retweeted"
+        }
+      ],
+      "entities": {
+        "mentions": [
+          {
+            "start": 3,
+            "end": 12,
+            "id": "1117823948",
+            "username": "AnnaZabl"
+          }
+        ]
+      },
+      "possibly_sensitive": false,
+      "conversation_id": "1459605919151624194",
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "quote_count": 0,
+        "retweet_count": 4
+      },
+      "created_at": "2021-11-13T19:35:43.000Z",
+      "text": "RT @AnnaZabl: Jeśli ktoś nie słuchał, zapraszam. Katarzyna Błażejewska - Stuhr i Maciej Stuhr w rozmowie ze mną - o człowieczeństwie, nadzi…",
+      "source": "Twitter for Android",
+      "id": "1459605919151624194",
+      "author_id": "773018879643836416",
+      "lang": "pl",
+      "reply_settings": "everyone"
+    },
+    {
+      "referenced_tweets": [
+        {
+          "id": "1459578345708998659",
+          "type": "retweeted"
+        }
+      ],
+      "entities": {
+        "hashtags": [
+          {
+            "start": 97,
+            "end": 106,
+            "tag": "Białoruś"
+          },
+          {
+            "start": 107,
+            "end": 115,
+            "tag": "granica"
+          },
+          {
+            "start": 116,
+            "end": 123,
+            "tag": "Czechy"
+          }
+        ],
+        "mentions": [
+          {
+            "start": 3,
+            "end": 17,
+            "id": "863754684",
+            "username": "PawelChojecki"
+          }
+        ]
+      },
+      "possibly_sensitive": false,
+      "conversation_id": "1459604881816358914",
+      "public_metrics": {
+        "like_count": 0,
+        "reply_count": 0,
+        "quote_count": 0,
+        "retweet_count": 9
+      },
+      "created_at": "2021-11-13T19:31:36.000Z",
+      "text": "RT @PawelChojecki: Brawo Czesi! Przyszła partia rządząca chce praktycznej solidarności z Polską! #Białoruś #granica #Czechy  https://t.co/a…",
+      "source": "Twitter for Android",
+      "id": "1459604881816358914",
+      "author_id": "794174663547043840",
+      "lang": "pl",
+      "reply_settings": "everyone"
+    }
+  ],
+  {
+    "oldest_id": "1459604881816358914",
+    "newest_id": "1459606650915069962",
+    "result_count": 4
+  },
+  {
+    "tweets": [
+      {
+        "entities": {
+          "urls": [
+            {
+              "display_url": "zpravy.aktualne.cz/domaci/ods-vyz…",
+              "images": [
+                {
+                  "width": 720,
+                  "url": "https://pbs.twimg.com/news_img/1459564747775520772/y40etAdN?format=jpg&name=orig",
+                  "height": 405
+                },
+                {
+                  "width": 150,
+                  "url": "https://pbs.twimg.com/news_img/1459564747775520772/y40etAdN?format=jpg&name=150x150",
+                  "height": 150
+                }
+              ],
+              "start": 106,
+              "expanded_url": "https://zpravy.aktualne.cz/domaci/ods-vyzvala-babise-aby-do-polska-poslal-policisty/r~3184fe16449e11ec8fa20cc47ab5f122/",
+              "unwound_url": "https://zpravy.aktualne.cz/domaci/ods-vyzvala-babise-aby-do-polska-poslal-policisty/r~3184fe16449e11ec8fa20cc47ab5f122/",
+              "description": "Polská pohraniční stráž a další státní orgány čelí bezprecedentnímu zneužívání uměle vytvořené migrační vlny, tvrdí poslanci ODS.",
+              "end": 129,
+              "title": "ODS kritizuje premiéra Babiše. Vyzývá ho, aby do Polska poslal české policisty",
+              "url": "https://t.co/aZ9XhgzYN6",
+              "status": 200
+            }
+          ],
+          "hashtags": [
+            {
+              "start": 78,
+              "end": 87,
+              "tag": "Białoruś"
+            },
+            {
+              "start": 88,
+              "end": 96,
+              "tag": "granica"
+            },
+            {
+              "start": 97,
+              "end": 104,
+              "tag": "Czechy"
+            }
+          ]
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "1459578345708998659",
+        "public_metrics": {
+          "like_count": 18,
+          "reply_count": 0,
+          "quote_count": 0,
+          "retweet_count": 9
+        },
+        "created_at": "2021-11-13T17:46:09.000Z",
+        "text": "Brawo Czesi! Przyszła partia rządząca chce praktycznej solidarności z Polską! #Białoruś #granica #Czechy  https://t.co/aZ9XhgzYN6",
+        "source": "Twitter for Android",
+        "id": "1459578345708998659",
+        "author_id": "863754684",
+        "lang": "pl",
+        "reply_settings": "everyone"
+      },
+      {
+        "entities": {
+          "urls": [
+            {
+              "display_url": "audycje.tokfm.pl/podcast/114313…",
+              "images": [
+                {
+                  "width": 600,
+                  "url": "https://pbs.twimg.com/news_img/1459588784081846273/DZCj8YfX?format=jpg&name=orig",
+                  "height": 346
+                },
+                {
+                  "width": 150,
+                  "url": "https://pbs.twimg.com/news_img/1459588784081846273/DZCj8YfX?format=jpg&name=150x150",
+                  "height": 150
+                }
+              ],
+              "start": 139,
+              "expanded_url": "https://audycje.tokfm.pl/podcast/114313,Aktor-Maciej-Stuhr-i-jego-zona-Katarzyna-byli-na-polsko-bialoruskiej-granicy-Pojechali-pomagac-i-wesprzec",
+              "unwound_url": "https://audycje.tokfm.pl/podcast/114313,Aktor-Maciej-Stuhr-i-jego-zona-Katarzyna-byli-na-polsko-bialoruskiej-granicy-Pojechali-pomagac-i-wesprzec",
+              "description": "Podcast z audycji Twój Problem - Moja Sprawa. Anna Gmiterek-Zabłocka. Gośćmi audycji byli: Katarzyna Błażejewska-Stuhr, Maciej Stuhr. Dostępna transkrypcja. Temat: Aktor Maciej Stuhr i jego żona Katarzyna byli na polsko - białoruskiej granicy. Pojechali pomagać i wesprzeć",
+              "end": 162,
+              "title": "Posłuchaj podcastu: Aktor Maciej Stuhr i jego żona Katarzyna byli na polsko - białoruskiej granicy. Pojechali pomagać i wesprzeć - TOK FM",
+              "url": "https://t.co/5ij0KCtElh",
+              "status": 200
+            }
+          ],
+          "hashtags": [
+            {
+              "start": 189,
+              "end": 197,
+              "tag": "granica"
+            },
+            {
+              "start": 198,
+              "end": 209,
+              "tag": "Łukaszenki"
+            },
+            {
+              "start": 210,
+              "end": 219,
+              "tag": "Białoruś"
+            }
+          ],
+          "mentions": [
+            {
+              "start": 163,
+              "end": 176,
+              "id": "43064962",
+              "username": "Radio_TOK_FM"
+            },
+            {
+              "start": 177,
+              "end": 188,
+              "id": "3044554131",
+              "username": "TOKFM_NEWS"
+            }
+          ]
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "1459588775781277700",
+        "public_metrics": {
+          "like_count": 12,
+          "reply_count": 1,
+          "quote_count": 0,
+          "retweet_count": 4
+        },
+        "created_at": "2021-11-13T18:27:36.000Z",
+        "text": "Jeśli ktoś nie słuchał, zapraszam. Katarzyna Błażejewska - Stuhr i Maciej Stuhr w rozmowie ze mną - o człowieczeństwie, nadziei, pomaganiu https://t.co/5ij0KCtElh @Radio_TOK_FM @TOKFM_NEWS #granica #Łukaszenki #Białoruś",
+        "source": "Twitter Web App",
+        "id": "1459588775781277700",
+        "author_id": "1117823948",
+        "lang": "pl",
+        "reply_settings": "everyone"
+      }
+    ],
+    "users": [
+      {
+        "protected": false,
+        "verified": false,
+        "public_metrics": {
+          "tweet_count": 4234,
+          "following_count": 242,
+          "listed_count": 0,
+          "followers_count": 77
+        },
+        "name": "Katarzyna",
+        "created_at": "2018-09-16T09:45:48.000Z",
+        "description": "Życie  człowieka jest drogą  która prowadzi do Boga.",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1156126909417361409/77hM-oKo_normal.jpg",
+        "id": "1041261861855875076",
+        "url": "",
+        "username": "Katarzy53487534"
+      },
+      {
+        "pinned_tweet_id": "1387394042959433728",
+        "verified": false,
+        "public_metrics": {
+          "tweet_count": 45861,
+          "following_count": 554,
+          "listed_count": 11,
+          "followers_count": 4817
+        },
+        "created_at": "2012-10-05T22:24:16.000Z",
+        "description": "Pastor, editor-in-chief of 'Against the Tide' (monthly): Pastor, redaktor naczelny telewizji i miesięcznika 'Idź Pod Prąd' \nhttps://t.co/sC1fAYDsU4",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2684733622/d049790eb764296ac3d96e65c635d980_normal.jpeg",
+        "url": "https://t.co/vtwHvHO7Pq",
+        "protected": false,
+        "entities": {
+          "description": {
+            "urls": [
+              {
+                "display_url": "idzpodprad.pl",
+                "start": 124,
+                "expanded_url": "http://www.idzpodprad.pl",
+                "end": 147,
+                "url": "https://t.co/sC1fAYDsU4"
+              }
+            ]
+          },
+          "url": {
+            "urls": [
+              {
+                "display_url": "megakosciol.pl",
+                "start": 0,
+                "expanded_url": "http://megakosciol.pl",
+                "end": 23,
+                "url": "https://t.co/vtwHvHO7Pq"
+              }
+            ]
+          }
+        },
+        "name": "Paweł Chojecki",
+        "location": "Poland/Polska",
+        "id": "863754684",
+        "username": "PawelChojecki"
+      },
+      {
+        "protected": false,
+        "verified": false,
+        "public_metrics": {
+          "tweet_count": 9,
+          "following_count": 162,
+          "listed_count": 0,
+          "followers_count": 25
+        },
+        "name": "Piotr Machowicz",
+        "created_at": "2015-11-13T08:31:24.000Z",
+        "description": "",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1457976273121206273/6eW-Lifn_normal.jpg",
+        "location": "Milky way ",
+        "id": "4177565176",
+        "url": "",
+        "username": "Piotr_Machowicz"
+      },
+      {
+        "protected": false,
+        "verified": false,
+        "public_metrics": {
+          "tweet_count": 1716,
+          "following_count": 239,
+          "listed_count": 1,
+          "followers_count": 125
+        },
+        "name": "Woland Błaszczuk",
+        "created_at": "2016-09-06T04:43:57.000Z",
+        "description": "",
+        "profile_image_url": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "id": "773018879643836416",
+        "url": "",
+        "username": "WolandB"
+      },
+      {
+        "pinned_tweet_id": "711822995032039424",
+        "verified": false,
+        "public_metrics": {
+          "tweet_count": 26868,
+          "following_count": 1369,
+          "listed_count": 60,
+          "followers_count": 5810
+        },
+        "created_at": "2013-01-24T21:46:01.000Z",
+        "description": "Radio TOK FM - newsy i program \"Twój problem, moja sprawa\". Ale nie utożsamiajcie wszystkiego, o czym tweetuję, z moją pracą. Mój adres: problem@tok.fm",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1376591224044466178/MO3eQPLV_normal.jpg",
+        "url": "https://t.co/vKUKk744FB",
+        "protected": false,
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "display_url": "facebook.com/TPMSTOKFM/?eid…",
+                "start": 0,
+                "expanded_url": "https://www.facebook.com/TPMSTOKFM/?eid=ARCJWmSp14jdOYET84Grc0qEfRbeMIahrkyen68R8UHgVaY8HK5_V3WTvXoQ",
+                "end": 23,
+                "url": "https://t.co/vKUKk744FB"
+              }
+            ]
+          }
+        },
+        "name": "A. Gmiterek-Zabłocka",
+        "location": "POLSKA, Lublin",
+        "id": "1117823948",
+        "username": "AnnaZabl"
+      },
+      {
+        "pinned_tweet_id": "1397564205809741826",
+        "verified": false,
+        "public_metrics": {
+          "tweet_count": 56612,
+          "following_count": 658,
+          "listed_count": 3,
+          "followers_count": 1019
+        },
+        "created_at": "2016-11-03T13:49:29.000Z",
+        "description": "#CzytamBiblię stąd wiem że #NiePochodzęOdMałpy i #ApokalipsaToNiefikcja \nWspieram #IPPTV i projekt #MegaKościół \nSocjalizm=Trucizna\nKomunizm=Niewolnicza Śmierć.",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1381544264027545600/1MXBpgve_normal.jpg",
+        "url": "",
+        "protected": false,
+        "entities": {
+          "description": {
+            "hashtags": [
+              {
+                "start": 0,
+                "end": 13,
+                "tag": "CzytamBiblię"
+              },
+              {
+                "start": 27,
+                "end": 46,
+                "tag": "NiePochodzęOdMałpy"
+              },
+              {
+                "start": 49,
+                "end": 71,
+                "tag": "ApokalipsaToNiefikcja"
+              },
+              {
+                "start": 82,
+                "end": 88,
+                "tag": "IPPTV"
+              },
+              {
+                "start": 99,
+                "end": 111,
+                "tag": "MegaKościół"
+              }
+            ]
+          }
+        },
+        "name": "Mariusz Borucki",
+        "location": "Gromadka",
+        "id": "794174663547043840",
+        "username": "MilczyDusza"
+      }
+    ]
+  }
+]
