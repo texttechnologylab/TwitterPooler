@@ -58,3 +58,20 @@ If you want to learn more about building native executables, please consult http
 Easily start your RESTful Web Services
 
 [Related guide section...](https://quarkus.io/guides/getting-started#the-jax-rs-resources)
+
+# Cite
+If you want to use the Project, please quote this as follows:
+
+# BibTeX
+```
+
+@Thesis{Siwiecki:2022,
+  author    = {Siwiecki, Grzegorz},
+  title     = {TwitterPooler: Ein System für das Management, Pooling und die NLP-Vorverarbeitung von Twitter-Daten},
+  institution = {Institute of Computer Science and Mathematics, Text Technology Lab},
+  address = {Frankfurt, Germany},
+  type = {bachelor's thesis},
+  year      = {2022}
+}
+
+```
