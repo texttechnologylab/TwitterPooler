@@ -3,31 +3,28 @@ package databaseTests;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
-import database.DBHelper;
+import org.texttechnologylab.twitterpooler.database.DBHelper;
 import io.quarkus.mongodb.MongoClientName;
 import io.quarkus.test.junit.QuarkusTest;
-import org.bson.Document;
-import org.bson.conversions.Bson;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import twitter.Tweet;
+import org.texttechnologylab.twitterpooler.twitter.Tweet;
 
 import javax.inject.Inject;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoField;
 import java.util.ArrayList;
 import static com.mongodb.client.model.Filters.eq;
 
-@QuarkusTest
+//@QuarkusTest
 public class TweetTest {
 
     @Inject
     @MongoClientName("tweets")
     MongoClient mongoClientTweets;
 
-    @Test
+//    @Test
     public void getTweetsByQueryId()
     {
         //String queryId = "af7ceb3a-7983-43cd-ba42-b6200b382bbc";
@@ -41,7 +38,7 @@ public class TweetTest {
         Assertions.assertTrue(tweets.size() == test.countDocuments());
     }
 
-    @Test
+//    @Test
     public void getTweetbyIdTest()
     {
         //String queryId = "af7ceb3a-7983-43cd-ba42-b6200b382bbc";
@@ -71,7 +68,7 @@ public class TweetTest {
         collection.updateOne(found, updateOp);*/
     }
 
-@Test
+//    @Test
     public void cleantext()
     {
         String queryId = "958e5bda-64b0-4d32-8195-20fa9abe3ce0";

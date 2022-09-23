@@ -9,9 +9,9 @@ import org.texttechnologylab.utilities.helper.TempFileHandler;
 import java.io.File;
 import java.io.IOException;
 
-@QuarkusTest
+//@QuarkusTest
 public class Client {
-    @Test
+//    @Test
     public void clientTest() throws IOException {
         File tFile = TempFileHandler.getTempFile("aaa", "bbb");
         FileUtils.downloadFile(tFile, "http://service.hucompute.org/urls_v2.xml");

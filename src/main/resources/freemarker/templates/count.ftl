@@ -20,7 +20,9 @@
     </nav>
 <div class="container customCount">
     <div class="panel panel-info">
-        <h2><#if tweetCount??>You want to download ${tweetCount} tweets. Please select account which you want to use.<#else>Please select account which you want to use.</#if></h2>
+        <h2><#if tweetCount??>You want to download ${tweetCount} org.texttechnologylab.twitterpooler.tweets. Please
+            select
+            account which you want to use.<#else>Please select account which you want to use.</#if></h2>
     </div>
 </div>
 

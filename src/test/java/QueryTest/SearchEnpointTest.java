@@ -1,34 +1,20 @@
 package QueryTest;
 
 import com.mongodb.client.MongoClient;
-import com.mongodb.client.MongoCollection;
-import com.mongodb.client.MongoDatabase;
-import database.DBHelper;
 import io.quarkus.mongodb.MongoClientName;
 import io.quarkus.test.junit.QuarkusTest;
-import org.apache.http.HttpEntity;
-import org.apache.http.client.utils.URIBuilder;
-import org.bson.Document;
-import org.json.JSONArray;
-import org.json.JSONObject;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.texttechnologylab.uimadb.wrapper.mongo.serilization.exceptions.CasSerializationException;
 import org.texttechnologylab.uimadb.wrapper.mongo.serilization.exceptions.SerializerInitializationException;
 import org.texttechnologylab.uimadb.wrapper.mongo.serilization.exceptions.UnknownFactoryException;
 import org.xml.sax.SAXException;
-import tweets.*;
-import twitter.QueryAccount;
-import twitter.TwitterAccount;
 
 import javax.inject.Inject;
 import java.io.IOException;
 import java.net.URISyntaxException;
-import java.time.Instant;
-import java.util.UUID;
 
 
-@QuarkusTest
+//@QuarkusTest
 public class SearchEnpointTest {
     @Inject
     @MongoClientName("tweets")

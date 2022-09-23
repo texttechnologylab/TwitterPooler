@@ -7,7 +7,7 @@
           crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <#include "styles/style.css">
-    <title>Hello ${name}!</title>
+    <title>TTLab TwitterPooler - Hello ${name}!</title>
 </head>
 <body>
 <nav class="navbar navbar-dark bg-dark customNavbar">
@@ -26,7 +26,7 @@
             <table class="table table-striped w-auto table-sm small">
                 <thead>
                 <tr>
-                    <th>Number of tweets</th>
+                    <th>Number tweets</th>
                     <th>Downloaded tweets</th>
                     <th>Status</th>
                     <th>Endpoint</th>

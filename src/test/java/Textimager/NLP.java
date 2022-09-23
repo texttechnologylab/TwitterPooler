@@ -11,19 +11,19 @@ import org.apache.uima.jcas.JCas;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.texttechnologylab.uimadb.wrapper.mongo.MongoSerialization;
-import twitter.Tweet;
+import org.texttechnologylab.twitterpooler.twitter.Tweet;
 
 
 import javax.inject.Inject;
 import java.util.ArrayList;
 
 
-@QuarkusTest
+//@QuarkusTest
 public class NLP {
     @Inject
     @MongoClientName("tweets")
     MongoClient mongoClientTweets;
-    @Test
+//    @Test
     public void nlpTest() throws  UIMAException {
         //String queryId = "1b03cf4a-956f-44e8-9f25-f354360d2011";
         //String id="1492506860406116354";
@@ -41,7 +41,7 @@ public class NLP {
         //JCas cas = DBHelper.JsonToCas(jsonObject);
         Assertions.assertTrue(firstTokenTest.equals(firstTokenTweet));
     }
-    @Test
+//    @Test
     public void NLPSpacy() throws UIMAException {
         String queryId = "03f7ed15-c37e-4029-b151-2d7a75ac71b5";
         //String Tweetid ="1489301134342721539";

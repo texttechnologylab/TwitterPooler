@@ -3,14 +3,13 @@ package databaseTests;
 import io.quarkus.mongodb.panache.PanacheQuery;
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
-import twitter.TwitterAccount;
+import org.texttechnologylab.twitterpooler.twitter.TwitterAccount;
 
 import java.util.List;
 
-@QuarkusTest
+//@QuarkusTest
 public class TwitterAccountPanacheTest {
-    @Test
+//    @Test
     public void getTwitterAccountByName()
     {
         PanacheQuery<TwitterAccount> accountQuery = TwitterAccount.find("name", "Grzegorz");
@@ -18,7 +17,7 @@ public class TwitterAccountPanacheTest {
         Assertions.assertTrue(accounts.get(0).getName().equals("Grzegorz"));
     }
 
-    @Test
+//    @Test
     public void getAllAccounts()
     {
         var accounts = TwitterAccount.findAll();

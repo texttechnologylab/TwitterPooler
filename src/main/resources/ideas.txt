@@ -47,7 +47,7 @@ Test Scenario
 ----> Search[E]/UserTimeline[E]/UserMentioned[E]/UserLiked/TweetLiking
 
 2. Search query example
-----> [ERLEDIGT] "twitter data" has:mentions (has:media OR has:links)
+----> [ERLEDIGT] "org.texttechnologylab.twitterpooler.twitter data" has:mentions (has:media OR has:links)
 ----> [ERLEDIGT] specifying grumpy OR cat OR #meme
 ----> [ERLEDIGT] (grumpy cat) OR (#meme has:images)
 
@@ -65,7 +65,7 @@ System.out.println("Deserilizer took " + (endTime - startTime) + " milliseconds"
 Wie wurden die pools files gspeichert :
 poolart-queryid-file
 
-Moze dopisac w rozdziale Grundlagen --> textimager --> NLP-Vorverarbeitung ?
+Moze dopisac w rozdziale Grundlagen --> org.texttechnologylab.twitterpooler.textimager --> NLP-Vorverarbeitung ?
 
 
 TWORZENIE PLAYLIST NA SPOTIFY ze wzgledu na popularnosc na twiterze

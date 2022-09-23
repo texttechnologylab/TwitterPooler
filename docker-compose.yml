@@ -1,0 +1,20 @@
+version: "3.4"
+
+services:
+  twitterpooler:
+    container_name: twitter-pooler
+    image: "quarkus:dev"
+    ports:
+      - "127.0.0.1:8080:8080"
+    links:
+      - "twitter-pooler-db"
+    depends_on:
+      - twitter-pooler-db
+
+  twitter-pooler-db:
+    image: "mongo:latest"
+    container_name: twitter-pooler-db
+    expose:
+      - 27017
+    ports:
+      - "127.0.0.1:27017:27017"

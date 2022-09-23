@@ -8,7 +8,7 @@ import io.quarkus.test.junit.QuarkusTest;
 import org.bson.Document;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import tweets.PoolingStarterRunnable;
+import org.texttechnologylab.twitterpooler.tweets.PoolingStarterRunnable;
 
 import javax.inject.Inject;
 import java.util.ArrayList;
@@ -16,7 +16,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-@QuarkusTest
+//@QuarkusTest
 public class AuthorPooling {
 
 
@@ -24,7 +24,7 @@ public class AuthorPooling {
     @MongoClientName("tweets")
     MongoClient mongoClientTweets;
 
-    @Test
+//    @Test
     public void authorWiseTest()
     {
         MongoDatabase mongoClient = mongoClientTweets.getDatabase("Tweets");

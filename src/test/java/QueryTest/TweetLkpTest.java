@@ -1,38 +1,23 @@
 package QueryTest;
 
 import com.mongodb.client.MongoClient;
-import com.mongodb.client.MongoCollection;
-import database.DBHelper;
 import io.quarkus.mongodb.MongoClientName;
 import io.quarkus.test.junit.QuarkusTest;
-import org.apache.http.HttpEntity;
-import org.apache.http.client.utils.URIBuilder;
-import org.bson.Document;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import tweets.Endpoint;
-import tweets.Query;
-import tweets.RequestHandler;
-import twitter.QueryAccount;
-import twitter.TwitterAccount;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
-import java.time.Instant;
-import java.util.*;
-
-import org.json.*;
 
 import javax.inject.Inject;
 
 
-@QuarkusTest
+//@QuarkusTest
 public class TweetLkpTest {
     @Inject
     @MongoClientName("tweets")
     MongoClient mongoClientTweets;
 
-    @Test
+//    @Test
     public void getTweet() throws URISyntaxException, IOException{
         /*String endpoint = "tweetLookup";
         String tweetId = "1454678518969864200,1299530165463199747";
