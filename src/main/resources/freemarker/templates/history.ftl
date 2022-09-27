@@ -26,8 +26,8 @@
                 <thead>
                 <tr>
                     <th>Delete</th>
-                    <th>Number of org.texttechnologylab.twitterpooler.tweets</th>
-                    <th>Downloaded org.texttechnologylab.twitterpooler.tweets</th>
+                    <th>Number of tweets</th>
+                    <th>Downloaded tweets</th>
                     <th>Status</th>
                     <th>Endpoint</th>
                     <th>Query</th>

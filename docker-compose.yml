@@ -1,20 +1,29 @@
 version: "3.4"
 
 services:
-  twitterpooler:
-    container_name: twitter-pooler
-    image: "quarkus:dev"
-    ports:
-      - "127.0.0.1:8080:8080"
-    links:
-      - "twitter-pooler-db"
-    depends_on:
-      - twitter-pooler-db
-
   twitter-pooler-db:
     image: "mongo:latest"
     container_name: twitter-pooler-db
     expose:
       - 27017
+#    networks:
+#      - twitter
+
+  twitterpooler:
+    container_name: twitter-pooler
+    image: "gabrami/pooler:1.0.0-SNAPSHOT"
+#    build:
+#      context: .
+#      dockerfile: src/main/docker/Dockerfile.jvm
     ports:
-      - "127.0.0.1:27017:27017"
+      - "8085:8080"
+    links:
+      - twitter-pooler-db
+    depends_on:
+      - twitter-pooler-db
+#    networks:
+#        - twitter
+
+#networks:
+#  twitter:
+#    driver: bridge

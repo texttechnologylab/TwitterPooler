@@ -65,7 +65,7 @@ System.out.println("Deserilizer took " + (endTime - startTime) + " milliseconds"
 Wie wurden die pools files gspeichert :
 poolart-queryid-file
 
-Moze dopisac w rozdziale Grundlagen --> org.texttechnologylab.twitterpooler.textimager --> NLP-Vorverarbeitung ?
+Moze dopisac w rozdziale Grundlagen --> textimager --> NLP-Vorverarbeitung ?
 
 
 TWORZENIE PLAYLIST NA SPOTIFY ze wzgledu na popularnosc na twiterze

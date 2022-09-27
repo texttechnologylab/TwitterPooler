@@ -8,27 +8,16 @@
   <properties>
     <compiler-plugin.version>3.8.1</compiler-plugin.version>
     <maven.compiler.parameters>true</maven.compiler.parameters>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <quarkus.platform.artifact-id>quarkus-bom</quarkus.platform.artifact-id>
     <quarkus.platform.group-id>io.quarkus.platform</quarkus.platform.group-id>
-    <quarkus.platform.version>2.4.1.Final</quarkus.platform.version>
-    <surefire-plugin.version>3.0.0-M5</surefire-plugin.version>
+    <quarkus.platform.version>2.12.3.Final</quarkus.platform.version>
     <surefire-failsave.version>3.0.0-M7</surefire-failsave.version>
-    <maven.compiler.source>11</maven.compiler.source>
-    <maven.compiler.target>11</maven.compiler.target>
+    <surefire-plugin.version>3.0.0-M5</surefire-plugin.version>
   </properties>
-  <repositories>
-    <repository>
-      <id>jitpack.io</id>
-      <url>https://jitpack.io</url>
-    </repository>
-    <repository>
-      <id>Central</id>
-      <name>Maven Plugin Repository</name>
-      <url>https://repo1.maven.org/maven2</url>
-    </repository>
-  </repositories>
   <dependencyManagement>
     <dependencies>
       <dependency>
@@ -49,6 +38,10 @@
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-arc</artifactId>
     </dependency>
+<!--    <dependency>-->
+<!--      <groupId>io.quarkus</groupId>-->
+<!--      <artifactId>quarkus-container-image-docker</artifactId>-->
+<!--    </dependency>-->
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-junit5</artifactId>
@@ -59,14 +52,20 @@
       <artifactId>rest-assured</artifactId>
       <scope>test</scope>
     </dependency>
-      <dependency>
-          <groupId>org.mongodb</groupId>
-          <artifactId>mongodb-driver-sync</artifactId>
-          <version>4.3.3</version>
-      </dependency>
+    <dependency>
+      <groupId>org.mongodb</groupId>
+      <artifactId>mongodb-driver-sync</artifactId>
+      <version>4.3.3</version>
+    </dependency>
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpclient</artifactId>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-sync -->
+    <dependency>
+      <groupId>org.mongodb</groupId>
+      <artifactId>mongodb-driver-sync</artifactId>
+      <version>4.7.1</version>
     </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
@@ -86,27 +85,24 @@
       <artifactId>quarkus-freemarker</artifactId>
       <version>0.3.0.CR1</version>
     </dependency>
-
     <dependency>
       <groupId>com.github.texttechnologylab</groupId>
       <artifactId>UIMADatabaseInterface</artifactId>
       <version>3634ac3be3</version>
     </dependency>
-
     <dependency>
       <groupId>com.github.texttechnologylab</groupId>
       <artifactId>UIMATypeSystem</artifactId>
       <version>9b334dfe90</version>
     </dependency>
-
     <dependency>
       <groupId>com.github.texttechnologylab</groupId>
       <artifactId>textimager-client</artifactId>
       <version>dirty-tei-dcd9b4979e-1</version>
       <exclusions>
         <exclusion>
-          <groupId>com.github.texttechnologylab.textimager-uima</groupId>
           <artifactId>*</artifactId>
+          <groupId>com.github.texttechnologylab.textimager-uima</groupId>
         </exclusion>
       </exclusions>
     </dependency>
@@ -115,7 +111,6 @@
       <artifactId>Utilities</artifactId>
       <version>27866a7214</version>
     </dependency>
-
     <dependency>
       <groupId>com.fasterxml.jackson.dataformat</groupId>
       <artifactId>jackson-dataformat-xml</artifactId>
@@ -127,12 +122,23 @@
       <version>48b8de425f</version>
       <exclusions>
         <exclusion>
-          <groupId>com.github.texttechnologylab</groupId>
           <artifactId>UIMATypeSystem</artifactId>
+          <groupId>com.github.texttechnologylab</groupId>
         </exclusion>
       </exclusions>
     </dependency>
   </dependencies>
+  <repositories>
+    <repository>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io</url>
+    </repository>
+    <repository>
+      <id>Central</id>
+      <name>Maven Plugin Repository</name>
+      <url>https://repo1.maven.org/maven2</url>
+    </repository>
+  </repositories>
   <build>
     <plugins>
       <plugin>

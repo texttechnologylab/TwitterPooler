@@ -32,7 +32,7 @@
             <div class="list-group">
                 <#list queryAccounts as query>
                 <button type="button"  value="${query.queryId}" class="list-group-item btnBigColore" onclick="setQueryId(this.value); setColor(this.value,this.className)">Query
-                    : ${query.query} Number of org.texttechnologylab.twitterpooler.tweets : ${query.tweetCount}
+                    : ${query.query} Number of tweets : ${query.tweetCount}
                     Start time : ${query.startTime} End time : ${query.endTime}</button>
                 </#list>
             </div>
