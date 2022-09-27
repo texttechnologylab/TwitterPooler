@@ -15,7 +15,7 @@ import java.util.List;
  *
  * This class provides pool account and all its attributes.
  **/
-@MongoEntity(clientName="admin",database = "Administration" ,collection = "Pools")
+@MongoEntity(clientName="admin",database = "administration" ,collection = "Pools")
 public class PoolAccount extends PanacheMongoEntity {
 
     String queryId="";

@@ -6,24 +6,24 @@ services:
     container_name: twitter-pooler-db
     expose:
       - 27017
-#    networks:
-#      - twitter
+    networks:
+      - twitter
 
   twitterpooler:
     container_name: twitter-pooler
-    image: "gabrami/pooler:1.0.0-SNAPSHOT"
-#    build:
-#      context: .
-#      dockerfile: src/main/docker/Dockerfile.jvm
+    image: "twitter-pooler:latest"
+    build:
+      context: .
+      dockerfile: ./src/main/docker/Dockerfile.jvm
     ports:
       - "8085:8080"
     links:
       - twitter-pooler-db
     depends_on:
       - twitter-pooler-db
-#    networks:
-#        - twitter
+    networks:
+        - twitter
 
-#networks:
-#  twitter:
-#    driver: bridge
+networks:
+  twitter:
+    driver: bridge

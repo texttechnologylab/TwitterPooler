@@ -61,12 +61,6 @@
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpclient</artifactId>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-sync -->
-    <dependency>
-      <groupId>org.mongodb</groupId>
-      <artifactId>mongodb-driver-sync</artifactId>
-      <version>4.7.1</version>
-    </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-mongodb-client</artifactId>

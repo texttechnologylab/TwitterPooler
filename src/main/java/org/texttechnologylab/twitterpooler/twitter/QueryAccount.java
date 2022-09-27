@@ -15,7 +15,7 @@ import java.util.List;
  *
  * This class provides query account and all its attributes.
  **/
-@MongoEntity(clientName="admin", database = "Administration", collection = "Query")
+@MongoEntity(clientName="admin", database = "Administration", collection = "Querys")
 public class QueryAccount extends PanacheMongoEntity {
 
     String queryId="";
