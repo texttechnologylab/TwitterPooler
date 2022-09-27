@@ -4,6 +4,7 @@ import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import io.quarkus.mongodb.panache.PanacheMongoEntity;
+import io.quarkus.mongodb.panache.common.MongoEntity;
 import org.bson.Document;
 import org.bson.codecs.pojo.annotations.BsonCreator;
 import org.bson.codecs.pojo.annotations.BsonProperty;
@@ -23,6 +24,7 @@ import static com.mongodb.client.model.Filters.eq;
  *
  * This class provides tweet and all its attributes.
  **/
+@MongoEntity(clientName="tweets",database = "Tweets" ,collection = "Tweets")
 public class Tweet extends PanacheMongoEntity {
 
     String queryId;

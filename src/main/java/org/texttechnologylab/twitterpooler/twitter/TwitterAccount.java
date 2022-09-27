@@ -19,7 +19,7 @@ import java.util.List;
  *
  * This class provides twitter account and all its attributes.
  **/
-@MongoEntity(clientName="test",database = "Administration" ,collection = "Accounts")
+@MongoEntity(clientName="admin", database = "Administration", collection = "Accounts")
 public class TwitterAccount extends PanacheMongoEntity {
 
     @Inject
