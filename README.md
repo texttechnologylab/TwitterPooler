@@ -65,7 +65,7 @@ If you want to use the Project, please quote this as follows:
 # BibTeX
 ```
 
-@Thesis{Siwiecki:2022,
+@unpublished{Siwiecki:2022,
   author    = {Siwiecki, Grzegorz},
   title     = {TwitterPooler: Ein System für das Management, Pooling und die NLP-Vorverarbeitung von Twitter-Daten},
   institution = {Institute of Computer Science and Mathematics, Text Technology Lab},
