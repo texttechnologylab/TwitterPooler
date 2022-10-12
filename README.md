@@ -79,7 +79,8 @@ If you want to use the Project, please quote this as follows:
   institution = {Institute of Computer Science and Mathematics, Text Technology Lab},
   address = {Frankfurt, Germany},
   type = {bachelor's thesis},
-  year      = {2022}
+  year      = {2022},
+  url       = {https://github.com/texttechnologylab/TwitterPooler/blob/main/Bachelorarbeit_Grzegorz_Siwiecki.pdf}
 }
 
 ```
