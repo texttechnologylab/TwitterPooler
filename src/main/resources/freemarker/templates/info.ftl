@@ -13,7 +13,7 @@
 <body>
 <nav class="navbar navbar-dark bg-dark customNavbar">
     <a class="navbar-brand" href="#">
-        <img src="Logo.png" width="50" height="50" alt="myImage"/>
+        <img src="images/Logo.png" width="50" height="50" alt="myImage"/>
         TwitterPooler
     </a>
 </nav>

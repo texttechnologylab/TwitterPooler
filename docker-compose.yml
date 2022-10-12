@@ -10,7 +10,7 @@ services:
       - twitter
 
   twitterpooler:
-    container_name: twitter-pooler
+    container_name: twitterpooler
     image: "twitter-pooler:latest"
     build:
       context: .
