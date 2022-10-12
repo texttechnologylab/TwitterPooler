@@ -5,6 +5,8 @@
 ## Description
 Within the scope of a bachelor thesis at the Institute of Computer Science and Mathematics at Goethe University, a system called "TwitterPooler" for the management of Twitter data was developed at the professorship for Computational Humanities / Text Technology. The application is able to perform NLP preprocessing as well as pooling on downloaded tweets. This repository contains the source code of the bachelor thesis as well as adaptions that are performed on top of it. 
 
+You can find an running demonstration here: http://twitter-pooler.texttechnologylab.org/home
+
 # Framework
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
